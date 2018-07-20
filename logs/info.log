@@ -1,0 +1,45 @@
+2018-06-12 16:42:59.622 INFO [main][StartupInfoLogger.java:48] - Starting ServerApplication on Terry123123 with PID 3204 (C:\Users\Administrator\git\huarong-mvc-site\target\classes started by Administrator in C:\Users\Administrator\git\huarong-mvc-site)
+2018-06-12 16:42:59.629 INFO [main][SpringApplication.java:597] - The following profiles are active: dev
+2018-06-12 16:42:59.775 INFO [main][AbstractApplicationContext.java:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27912e3: startup date [Tue Jun 12 16:42:59 GMT+08:00 2018]; root of context hierarchy
+2018-06-12 16:43:00.125 INFO [background-preinit][Version.java:30] - HV000001: Hibernate Validator 5.3.5.Final
+2018-06-12 16:43:01.012 INFO [main][RepositoryConfigurationDelegate.java:165] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-06-12 16:43:01.072 INFO [main][RepositoryConfigurationDelegate.java:165] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-06-12 16:43:02.800 INFO [main][TomcatEmbeddedServletContainer.java:89] - Tomcat initialized with port(s): 8083 (http)
+2018-06-12 16:43:02.825 INFO [main][DirectJDKLog.java:179] - Starting service [Tomcat]
+2018-06-12 16:43:02.832 INFO [main][DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.20
+2018-06-12 16:43:03.143 INFO [localhost-startStop-1][DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2018-06-12 16:43:03.144 INFO [localhost-startStop-1][EmbeddedWebApplicationContext.java:276] - Root WebApplicationContext: initialization completed in 3375 ms
+2018-06-12 16:43:03.560 INFO [localhost-startStop-1][AbstractFilterRegistrationBean.java:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-12 16:43:03.561 INFO [localhost-startStop-1][AbstractFilterRegistrationBean.java:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-12 16:43:03.561 INFO [localhost-startStop-1][AbstractFilterRegistrationBean.java:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-12 16:43:03.561 INFO [localhost-startStop-1][AbstractFilterRegistrationBean.java:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-12 16:43:03.564 INFO [localhost-startStop-1][AbstractFilterRegistrationBean.java:258] - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-06-12 16:43:03.564 INFO [localhost-startStop-1][ServletRegistrationBean.java:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-12 16:43:04.091 INFO [main][LocalContainerEntityManagerFactoryBean.java:349] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-06-12 16:43:04.261 INFO [main][Version.java:37] - HHH000412: Hibernate Core {5.0.12.Final}
+2018-06-12 16:43:04.263 INFO [main][Environment.java:213] - HHH000206: hibernate.properties not found
+2018-06-12 16:43:04.265 INFO [main][Environment.java:317] - HHH000021: Bytecode provider name : javassist
+2018-06-12 16:43:04.333 INFO [main][JavaReflectionManager.java:66] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-12 16:43:05.156 INFO [main][Dialect.java:156] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-06-12 16:43:05.908 INFO [main][SchemaUpdate.java:105] - HHH000228: Running hbm2ddl schema update
+2018-06-12 16:43:05.936 INFO [main][InformationExtractorJdbcDatabaseMetaDataImpl.java:365] - HHH000262: Table not found: t_user
+2018-06-12 16:43:05.938 INFO [main][InformationExtractorJdbcDatabaseMetaDataImpl.java:365] - HHH000262: Table not found: t_user
+2018-06-12 16:43:06.221 INFO [main][AbstractEntityManagerFactoryBean.java:379] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-06-12 16:43:06.830 INFO [main][RequestMappingHandlerAdapter.java:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27912e3: startup date [Tue Jun 12 16:42:59 GMT+08:00 2018]; root of context hierarchy
+2018-06-12 16:43:06.963 INFO [main][AbstractHandlerMethodMapping.java:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-12 16:43:06.965 INFO [main][AbstractHandlerMethodMapping.java:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-12 16:43:07.015 INFO [main][AbstractUrlHandlerMapping.java:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-12 16:43:07.015 INFO [main][AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-12 16:43:07.087 INFO [main][AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-12 16:43:07.799 INFO [main][AuthenticationManagerConfiguration.java:173] - 
+
+Using default security password: d45eb6e0-ab89-449c-8d1b-5dc94bce2276
+
+2018-06-12 16:43:07.883 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2018-06-12 16:43:08.057 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@a826ff8, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71f0806b, org.springframework.security.web.context.SecurityContextPersistenceFilter@2b7774d5, org.springframework.security.web.header.HeaderWriterFilter@2321e482, org.springframework.security.web.csrf.CsrfFilter@7bb4ed71, org.springframework.security.web.authentication.logout.LogoutFilter@69ba3f4e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@44bbb7c6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1999149e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@49889154, org.springframework.security.web.session.SessionManagementFilter@5d717f19, org.springframework.security.web.access.ExceptionTranslationFilter@22c8ee48]
+2018-06-12 16:43:08.293 INFO [main][MBeanExporter.java:431] - Registering beans for JMX exposure on startup
+2018-06-12 16:43:08.318 INFO [main][DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-8083"]
+2018-06-12 16:43:08.334 INFO [main][DirectJDKLog.java:179] - Starting ProtocolHandler ["http-nio-8083"]
+2018-06-12 16:43:08.355 INFO [main][DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2018-06-12 16:43:08.384 INFO [main][TomcatEmbeddedServletContainer.java:201] - Tomcat started on port(s): 8083 (http)
+2018-06-12 16:43:08.393 INFO [main][StartupInfoLogger.java:57] - Started ServerApplication in 9.177 seconds (JVM running for 10.819)
